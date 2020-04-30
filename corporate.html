@@ -19,7 +19,7 @@
 	padding: 40px;}
 
     body 
-	{background-image: url('front-desk.jpg');}
+	{background-image: url('paya-lebar-ff.jpg')}
 
     .body img 
 	{float: right;
@@ -30,8 +30,21 @@
 	{color: black;
 	background-color: rgba(255,255,255,0.75);
 	font-family: Verdana;
-	font-size: 1.2vw;
+	font-size: 1.5vw;
 	padding:30px 40px;}
+
+    .table th
+	{font-family: Verdana;
+	font-size: 2vw;
+	background-color:rgba(255,255,255,0.75);
+	padding: 50px 20px;}
+
+    .table td
+	{font-family: Verdana;
+	font-size: 1.5vw;
+	background-color:rgba(255,255,255,0.75);
+	padding: 60px 20px;
+	text-align: center;}
 
     .fa 
 	{padding: 20px;
@@ -106,6 +119,20 @@
 
     .dropdown:hover .dropdown-content {display: block;}
 
+    button 
+	{background-color: red;
+	color: white;
+	font-family: Futura;
+	font-size: 1.5vw;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.7;}
+
+    button:hover {opacity:1;}
+
     </style>
 </head>
 
@@ -125,17 +152,24 @@
 
     <div class="header">
     <img src="logo_ff.jpg" alt="logo">
-    <h1><i>Fitness First Paya Lebar</i></h1>
+    <h1><i>Corporate Packages</i></h1>
     </div>
 
+<div class="table"><table style="width:100%;"><center>
+    <tr>
+      <th><i>Company Subsidised</i></th>
+      <th><i>Employee Paid</i></th>
+    </tr>
+    <tr>
+      <td>Pay the full or partial membership amount for your employees and contribute towards their health and fitness. We offer premium discounts for 10 or more memberships.</td>
+      <td>Offer health club benefits in your company, with employees paying for their membership inidividually at an exclusive corporate rate.</td>
+    </tr>
+</center></table></div>
+
     <div class="body">
-    <picture><img src="singpost.jpg" alt="singpost"></picture>
-    <p><b>About Fitness First Paya Lebar</b><br>
-<br>The newest addition to our 20-club strong portfolio, <b>Fitness First Paya Lebar</b> is located at Singapore Post Centre, the new one-stop lifestyle destination in the buzzing east of Singapore. This 12,000 square feet club is easily accessible by East-West Line train services and is situated right beside Paya Lebar MRT Station at Level 2.<br>
+    <center><p><a href="https://www.fitnessfirst.com.sg/membership/privileges">Member's Privileges</a> | <a href="https://www.fitnessfirst.com.sg/membership/benefits">Member's Benefits</a></p></center> 
 
-<br>Whether members are a first-time gym goer or a fitness veteran, the cutting-edge gym equipment, enriching group exercise classes and some of the island’s most elite team of Personal Trainers will help you reach your fitness goals fast – and in style. Shape up with an elevated experience and discover fitness to transform your body and mind.<br>
-
-<br>Members can relax and rejuvenate at our beautifully decorated steam room or chill at the members' lounge with complimentary beverages, reading materials and computer terminals with complimentary internet access.</p></div>
+    <center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button></center>
 
 <footer>
 <a href="https://www.facebook.com/FitnessFirstSingapore/" class="fa fa-facebook"></a>
